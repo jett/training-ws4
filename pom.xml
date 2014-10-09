@@ -10,7 +10,7 @@
 
     <properties>
         <springframework.version>4.1.0.RELEASE</springframework.version>
-        <resteasy.version>3.0.8.Final</resteasy.version>
+        <resteasy.version>3.0.9.Final</resteasy.version>
         <junit.version>4.7</junit.version>
         <hibernate.version>4.1.4.Final</hibernate.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
