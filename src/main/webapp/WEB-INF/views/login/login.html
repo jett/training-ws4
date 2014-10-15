@@ -5,14 +5,11 @@
 </head>
 <body>
     this is the login view<br/>
-    <div th:text="${message}"/>
-    xxxx
+    zzz<div th:text="${message}"></div>
     <br/>
     <form method="POST" action="login" th:object="${loginForm}" th:action="@{login}">
-        <input name="userid"/>
-        <input type="submit" value="login">
+        <input name="userid" th:field="*{userid}" th:value="${loginForm[userid]}"/>
+        <input type="submit" value="login" >
     </form>
-    <br/>
-    end of form
 </body>
 </html>

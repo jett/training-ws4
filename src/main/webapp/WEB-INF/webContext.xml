@@ -20,6 +20,11 @@
 
     <import resource="config/thymeleaf-context.xml"/>
 
+    <!-- message externalization -->
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="messages" />
+    </bean>
+
     <!--component scanners-->
     <context:component-scan base-package="net.incuventure.template.api.service"/>
     <context:component-scan base-package="net.incuventure.template.web.ajax" />
